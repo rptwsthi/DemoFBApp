@@ -1,5 +1,5 @@
 //
-//  CLAHomeViewController.m
+//  LandingViewController.m
 //  DemoAfeez
 //
 //  Created by Technologies33 on 27/07/14.
