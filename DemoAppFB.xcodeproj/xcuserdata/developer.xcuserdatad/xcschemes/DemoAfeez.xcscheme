@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B383C7D1A8A1ECA008F82A3"
-               BuildableName = "DemoAfeez.app"
-               BlueprintName = "DemoAfeez"
-               ReferencedContainer = "container:DemoAfeez.xcodeproj">
+               BuildableName = "DemoAppFB.app"
+               BlueprintName = "DemoAppFB"
+               ReferencedContainer = "container:DemoAppFB.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B383C991A8A1ECB008F82A3"
-               BuildableName = "DemoAfeezTests.xctest"
-               BlueprintName = "DemoAfeezTests"
-               ReferencedContainer = "container:DemoAfeez.xcodeproj">
+               BuildableName = "DemoAppFBTests.xctest"
+               BlueprintName = "DemoAppFBTests"
+               ReferencedContainer = "container:DemoAppFB.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B383C991A8A1ECB008F82A3"
-               BuildableName = "DemoAfeezTests.xctest"
-               BlueprintName = "DemoAfeezTests"
-               ReferencedContainer = "container:DemoAfeez.xcodeproj">
+               BuildableName = "DemoAppFBTests.xctest"
+               BlueprintName = "DemoAppFBTests"
+               ReferencedContainer = "container:DemoAppFB.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B383C7D1A8A1ECA008F82A3"
-            BuildableName = "DemoAfeez.app"
-            BlueprintName = "DemoAfeez"
-            ReferencedContainer = "container:DemoAfeez.xcodeproj">
+            BuildableName = "DemoAppFB.app"
+            BlueprintName = "DemoAppFB"
+            ReferencedContainer = "container:DemoAppFB.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B383C7D1A8A1ECA008F82A3"
-            BuildableName = "DemoAfeez.app"
-            BlueprintName = "DemoAfeez"
-            ReferencedContainer = "container:DemoAfeez.xcodeproj">
+            BuildableName = "DemoAppFB.app"
+            BlueprintName = "DemoAppFB"
+            ReferencedContainer = "container:DemoAppFB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B383C7D1A8A1ECA008F82A3"
-            BuildableName = "DemoAfeez.app"
-            BlueprintName = "DemoAfeez"
-            ReferencedContainer = "container:DemoAfeez.xcodeproj">
+            BuildableName = "DemoAppFB.app"
+            BlueprintName = "DemoAppFB"
+            ReferencedContainer = "container:DemoAppFB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

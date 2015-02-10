@@ -52,7 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8B383C7E1A8A1ECA008F82A3 /* DemoAfeez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAfeez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B383C7E1A8A1ECA008F82A3 /* DemoAppFB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppFB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B383C821A8A1ECA008F82A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B383C831A8A1ECA008F82A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B383C851A8A1ECA008F82A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		8B383C8F1A8A1ECA008F82A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B383C911A8A1ECA008F82A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B383C941A8A1ECA008F82A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8B383C9A1A8A1ECB008F82A3 /* DemoAfeezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAfeezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B383C9A1A8A1ECB008F82A3 /* DemoAppFBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppFBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B383C9F1A8A1ECB008F82A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B383CA01A8A1ECB008F82A3 /* DemoAfeezTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAfeezTests.m; sourceTree = "<group>"; };
 		8B383CAA1A8A1FB3008F82A3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -146,8 +146,8 @@
 		8B383C7F1A8A1ECA008F82A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B383C7E1A8A1ECA008F82A3 /* DemoAfeez.app */,
-				8B383C9A1A8A1ECB008F82A3 /* DemoAfeezTests.xctest */,
+				8B383C7E1A8A1ECA008F82A3 /* DemoAppFB.app */,
+				8B383C9A1A8A1ECB008F82A3 /* DemoAppFBTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,9 +280,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B383C7D1A8A1ECA008F82A3 /* DemoAfeez */ = {
+		8B383C7D1A8A1ECA008F82A3 /* DemoAppFB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B383CA41A8A1ECB008F82A3 /* Build configuration list for PBXNativeTarget "DemoAfeez" */;
+			buildConfigurationList = 8B383CA41A8A1ECB008F82A3 /* Build configuration list for PBXNativeTarget "DemoAppFB" */;
 			buildPhases = (
 				8B383C7A1A8A1ECA008F82A3 /* Sources */,
 				8B383C7B1A8A1ECA008F82A3 /* Frameworks */,
@@ -292,14 +292,14 @@
 			);
 			dependencies = (
 			);
-			name = DemoAfeez;
+			name = DemoAppFB;
 			productName = DemoAfeez;
-			productReference = 8B383C7E1A8A1ECA008F82A3 /* DemoAfeez.app */;
+			productReference = 8B383C7E1A8A1ECA008F82A3 /* DemoAppFB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8B383C991A8A1ECB008F82A3 /* DemoAfeezTests */ = {
+		8B383C991A8A1ECB008F82A3 /* DemoAppFBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B383CA71A8A1ECB008F82A3 /* Build configuration list for PBXNativeTarget "DemoAfeezTests" */;
+			buildConfigurationList = 8B383CA71A8A1ECB008F82A3 /* Build configuration list for PBXNativeTarget "DemoAppFBTests" */;
 			buildPhases = (
 				8B383C961A8A1ECB008F82A3 /* Sources */,
 				8B383C971A8A1ECB008F82A3 /* Frameworks */,
@@ -310,9 +310,9 @@
 			dependencies = (
 				8B383C9C1A8A1ECB008F82A3 /* PBXTargetDependency */,
 			);
-			name = DemoAfeezTests;
+			name = DemoAppFBTests;
 			productName = DemoAfeezTests;
-			productReference = 8B383C9A1A8A1ECB008F82A3 /* DemoAfeezTests.xctest */;
+			productReference = 8B383C9A1A8A1ECB008F82A3 /* DemoAppFBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -332,7 +332,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8B383C791A8A1ECA008F82A3 /* Build configuration list for PBXProject "DemoAfeez" */;
+			buildConfigurationList = 8B383C791A8A1ECA008F82A3 /* Build configuration list for PBXProject "DemoAppFB" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -345,8 +345,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B383C7D1A8A1ECA008F82A3 /* DemoAfeez */,
-				8B383C991A8A1ECB008F82A3 /* DemoAfeezTests */,
+				8B383C7D1A8A1ECA008F82A3 /* DemoAppFB */,
+				8B383C991A8A1ECB008F82A3 /* DemoAppFBTests */,
 			);
 		};
 /* End PBXProject section */
@@ -417,7 +417,7 @@
 /* Begin PBXTargetDependency section */
 		8B383C9C1A8A1ECB008F82A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B383C7D1A8A1ECA008F82A3 /* DemoAfeez */;
+			target = 8B383C7D1A8A1ECA008F82A3 /* DemoAppFB */;
 			targetProxy = 8B383C9B1A8A1ECB008F82A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -528,7 +528,7 @@
 				);
 				INFOPLIST_FILE = DemoAfeez/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DemoAppFB;
 			};
 			name = Debug;
 		};
@@ -542,7 +542,7 @@
 				);
 				INFOPLIST_FILE = DemoAfeez/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DemoAppFB;
 			};
 			name = Release;
 		};
@@ -560,7 +560,7 @@
 				);
 				INFOPLIST_FILE = DemoAfeezTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DemoAppFBTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoAfeez.app/DemoAfeez";
 			};
 			name = Debug;
@@ -575,7 +575,7 @@
 				);
 				INFOPLIST_FILE = DemoAfeezTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DemoAppFBTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoAfeez.app/DemoAfeez";
 			};
 			name = Release;
@@ -583,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B383C791A8A1ECA008F82A3 /* Build configuration list for PBXProject "DemoAfeez" */ = {
+		8B383C791A8A1ECA008F82A3 /* Build configuration list for PBXProject "DemoAppFB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B383CA21A8A1ECB008F82A3 /* Debug */,
@@ -592,21 +592,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B383CA41A8A1ECB008F82A3 /* Build configuration list for PBXNativeTarget "DemoAfeez" */ = {
+		8B383CA41A8A1ECB008F82A3 /* Build configuration list for PBXNativeTarget "DemoAppFB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B383CA51A8A1ECB008F82A3 /* Debug */,
 				8B383CA61A8A1ECB008F82A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8B383CA71A8A1ECB008F82A3 /* Build configuration list for PBXNativeTarget "DemoAfeezTests" */ = {
+		8B383CA71A8A1ECB008F82A3 /* Build configuration list for PBXNativeTarget "DemoAppFBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B383CA81A8A1ECB008F82A3 /* Debug */,
 				8B383CA91A8A1ECB008F82A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
